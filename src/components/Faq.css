@@ -1,0 +1,31 @@
+.faq-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .faq-item {
+    border-bottom: 1px solid #e5e5e5;
+  }
+  
+  .faq-question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    cursor: pointer;
+    background-color: #f9f9f9;
+  }
+  
+  .faq-question:hover {
+    background-color: #f2f2f2;
+  }
+  
+  .faq-answer {
+    padding: 1rem;
+  }
+  
+  .faq-icon {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
