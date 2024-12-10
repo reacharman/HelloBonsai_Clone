@@ -23,6 +23,10 @@
   .navbar-logo {
     height: 24px;
   }
+  .navbar-logo:hover {
+    box-shadow: 0px 0px 100px 25px lightgreen;
+    
+  }
   .navbar-links {
     display: flex;
     gap: 1.5rem;
@@ -31,6 +35,12 @@
     text-decoration: none;
     color: #4c4d5f;
     font-size: 0.9rem;
+  }
+
+  .navbar-links a:hover {
+    font-weight: bolder;
+    box-shadow: 0px 0px 100px 10px lightgreen;
+    color:crimson
   }
   .navbar-right {
     display: flex;
@@ -43,11 +53,17 @@
     color: #4c4d5f;
     cursor: pointer;
   }
+  .btn-login:hover {
+    background-color: azure;
+  }
   .btn-start {
     padding: 0.5rem 1rem;
     border: none;
-    background: #00b289;
+    background: green;
     color: white;
     border-radius: 4px;
     cursor: pointer;
+  }
+  .btn-start:hover {
+    background: cornflowerblue;
   }

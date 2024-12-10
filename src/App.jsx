@@ -3,6 +3,7 @@ import Hero from "./components/Hero"
 import Faq from "./components/Faq"
 import Footer from './components/Footer';
 
+
 const App = () => {
   return (
     <>
@@ -10,6 +11,7 @@ const App = () => {
       <Hero/>
       <Faq/>
       <Footer />
+      
     </>
   )
 }

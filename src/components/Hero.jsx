@@ -16,7 +16,11 @@ const Hero = () => {
             </div>
 
             <div className="image-container">
+                <div className='bg-image-container'>
+                </div>
+               
                 <img src="https://cdn.prod.website-files.com/635ac9564cc3682ce1536786/67224c4b14961c2c9573e91a_Timesheets-product-hero%20(6)%20(2)-p-800.jpg" alt="Timesheet product hero" />
+                
             </div>
         </div>
         <h1 style={{ display: 'flex', justifyContent: 'center'}}>Get clarity on your teams billable hours and project costs</h1>
@@ -64,7 +68,7 @@ const Hero = () => {
             </div>
         </div>
 
-        <div className="hero-container">
+        <div className="hero-container"> 
             <div className="image-container">
                 <img src="https://cdn.prod.website-files.com/635ac9564cc3682ce1536786/665f2ffb95b5441021eb9ad8_Reports-3%20(2)-p-500.webp" alt="Timesheet product hero" />
             </div>
@@ -134,6 +138,7 @@ const Hero = () => {
         <div>
             
         </div>
+        
       </>
     )
   }
